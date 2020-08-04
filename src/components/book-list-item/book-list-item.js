@@ -11,7 +11,7 @@ export const BookListItem = ({ book, getBookDetails }) => {
             </div>
             <div className="book-details">
                 <Link to="/description" onClick={getBookDetails} className="book-title">{title}</Link>
-                <div className="book-price">{authors}</div>
+                <div className="book-author">{authors}</div>
                 <Link to="/description" >
                     <button
                         onClick={getBookDetails}
