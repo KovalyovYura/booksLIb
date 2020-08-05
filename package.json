@@ -13,7 +13,7 @@
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1",
+    "react-scripts": "3.2.0",
     "react-thunk": "^1.0.0",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0"
@@ -36,7 +36,8 @@
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 safari version",
+      "last 1 edge version"
     ]
   }
 }
