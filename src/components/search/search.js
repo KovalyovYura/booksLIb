@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import './search.css'
 import {booksFilter} from "../../actions";
 import {connect} from "react-redux";
 
@@ -21,7 +20,7 @@ const Search =({ booksFilterHandler }) => {
     }
 
     return (
-        <form className="form-inline my-form"
+        <form className="col-sm-4"
         onSubmit={(e) => onSubmit(e)}>
             <input value={value}
                    className="form-control"
