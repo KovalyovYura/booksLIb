@@ -21,10 +21,10 @@ const Search =({ booksFilterHandler }) => {
     }
 
     return (
-        <form className="form-inline d-flex justify-content-center md-form form-sm mt-0"
+        <form className="form-inline my-form"
         onSubmit={(e) => onSubmit(e)}>
             <input value={value}
-                   className="form-control form-control-sm ml-3 w-75"
+                   className="form-control"
                    type="text"
                    placeholder="filter books by title"
                    aria-label="Search"

@@ -3,7 +3,8 @@
     padding: 10px 0 20px 0;
     min-height:112px;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .shop-header .logo {

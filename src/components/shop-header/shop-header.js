@@ -8,10 +8,7 @@ export const ShopHeader = () => {
             <Link to="/">
                 <div className="logo">BooksLib</div>
             </Link>
-            <div className="col-md-8">
-                <meta itemProp="target" content="https://itbook.store/search/?q={q}"/>
-                <Search/>
-            </div>
+            <Search/>
         </header>
     );
 }
